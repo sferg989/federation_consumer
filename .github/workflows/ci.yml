@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 env:
-  ZE_SECRET_TOKEN: ${{ secrets.ZEPHYR_AUTH_TOKEN }}
+  ZE_SECRET_TOKEN: ${{ secrets.ZE_SECRET_TOKEN }}
 
 jobs:
   build-and-test:
