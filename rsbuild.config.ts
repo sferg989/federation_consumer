@@ -10,7 +10,7 @@ export default defineConfig({
       config.resolve.alias ||= {};
       config.resolve.alias['@util'] = 'src/util';
       return withZephyr({
-        authToken: process.env.ZE_SECRET_TOKEN
+        
       })(config);
     },
   },
